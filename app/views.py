@@ -2,7 +2,7 @@ from app import app
 from flask import render_template, request, redirect, url_for, flash
 from app import mail
 from flask_mail import Mail, Message
-from forms import ContactForm 
+from app.forms import ContactForm
 
 ###
 # Routing for your application.
